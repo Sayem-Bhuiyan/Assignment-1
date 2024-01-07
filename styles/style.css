@@ -13,6 +13,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 .header-container {
     text-align: center;
@@ -30,4 +31,31 @@ header {
     font-size: 72px;
     line-height: 95px;
     font-weight: 900;
+}
+
+/* discount section styles */
+.discount-section {
+    text-align: center;
+    margin-bottom: 120px;
+}
+#discount-number {
+    color: #F00;
+    font-size: 88px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+#discount-description {
+    color: #F00;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
+#discount-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 48px;
 }
