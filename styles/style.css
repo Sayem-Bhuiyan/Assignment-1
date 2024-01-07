@@ -1,61 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-header, main {
-    margin: 40px 100px 20px;
+header,
+main {
+  margin: 40px 100px 20px;
 }
 
 header {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    height: 600px;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    margin-bottom: 120px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  height: 600px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin-bottom: 120px;
 }
 .header-container {
-    text-align: center;
-    padding-top: 180px;
+  text-align: center;
+  padding-top: 180px;
 }
 .first-title {
-    color: white;
-    font-family: 'Merriweather', serif;
-    font-size: 32px;
-    margin-bottom: 10px;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 .header-title {
-    color: white;
-    font-family: 'merriweather', serif;
-    font-size: 72px;
-    line-height: 95px;
-    font-weight: 900;
+  color: white;
+  font-family: "merriweather", serif;
+  font-size: 72px;
+  line-height: 95px;
+  font-weight: 900;
 }
 
 /* discount section styles */
 .discount-section {
-    text-align: center;
-    margin-bottom: 120px;
+  text-align: center;
+  margin-bottom: 120px;
 }
 #discount-number {
-    color: #F00;
-    font-size: 88px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    margin-bottom: 48px;
+  color: #f00;
+  font-size: 88px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
 #discount-description {
-    color: #F00;
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500px;
-    margin-bottom: 15px;
+  color: #f00;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  margin-bottom: 15px;
 }
 #discount-title {
-    color: #070211;
-    font-size: 48px;
-    font-weight: 700;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 48px;
+}
+
+/* banner section styles */
+.banner-section {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  height: 600px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin-bottom: 120px;
+
+  display: flex;
+  align-items: center;
+  padding: 0px 60px;
+}
+.banner-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+  font-family: "merriweather", serif;
+}
+.banner-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.banner-content button {
+    color: white;
+    border: none;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 48px;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
 }
