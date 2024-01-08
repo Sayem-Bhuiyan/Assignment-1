@@ -138,6 +138,11 @@ header {
   color: white;
   padding: 20px 32px;
   cursor: pointer;
+  transition: all .5s 0.1s ease-in;
+}
+.time-and-place button:hover {
+  background-color: gray;
+  border-radius: 8px;
 }
 
 /* best offer section */
@@ -359,3 +364,59 @@ header {
   border: none;
   margin-left: -3px;
 }
+
+/* footer styles */
+footer {
+  background-color: #070211;
+  height: 609px;
+  color: white;
+}
+
+.footer-address {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+footer p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: 'Inter', sans-serif;
+}
+.address-column2 p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer hr {
+  margin: 50px 150px;
+  color: rgba(255, 255, 255, 0.15);
+  height: 1px;
+}
+.footer-icons {
+  text-align: center;
+}
+.footer-icons img {
+  margin-right: 24px;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-copyright button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  padding: 20px 32px;
+  transition: all .5s .1s ease-in-out;
+}
+.footer-copyright button:hover {
+  background-color: gray;
+  border-radius: 8px;
+}
+
