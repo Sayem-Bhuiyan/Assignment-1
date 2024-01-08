@@ -266,3 +266,42 @@ header {
   margin-left: 566px;
   z-index: 7;
 }
+
+/* gift section */
+.gift-section {
+  margin-bottom: 120px;
+}
+.gift-first-title {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+}
+
+.gift-title {
+  color: #070211;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.gift-info {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 48px;
+  max-width: 896px;
+}
+
+.image-column1, .image-column2 {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
