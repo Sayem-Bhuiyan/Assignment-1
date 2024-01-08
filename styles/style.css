@@ -305,3 +305,57 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+
+/* subscribe section styles */
+.subscribe-section {
+  background-color: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.sub-container {
+  padding-top: 80px;
+}
+.sub-container > img {
+  margin-bottom: 40px;
+}
+.sub-title {
+  color: #070211;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.sub-info {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 48px;
+  padding: 0px 100px;
+}
+
+.sub-input input {
+  padding: 25px 400px 25px 30px;
+  color: rgba(7, 2, 17, 0.30);
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
+}
+.sub-input button {
+  background-color: #F00;
+  padding: 24px 56px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+  margin-left: -3px;
+}
